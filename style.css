@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans+JP:wght@900&family=Noto+Sans+Mende+Kikakui&family=Noto+Serif:wght@700&family=Oswald:wght@500&family=Poppins:wght@400;500;600&family=Raleway&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans+JP:wght@900&family=Noto+Sans+Mende+Kikakui&family=Noto+Serif:wght@700&family=Nunito:ital,wght@0,800;1,600&family=Oswald:wght@500&family=Poppins:wght@400;500;600&family=Raleway&family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgba(31, 115, 254, 255);
+}
+
+.bgimge {
+    object-fit: contain;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    /* opacity: .7; */
+}
+
+.hdding {
+    font-family: 'Nunito', sans-serif;
+    padding-top: 3%;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.image {
+    width: 1.5rem;
+}
+
+.buton:hover {
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
+}
+
+.buton:active {
+    box-shadow: none;
+}
+
+.mainbox1 {
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 38%;
+
+}
+
+.voic {
+    width: 1.5rem;
+}
+
+.word {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline;
+    text-align: left;
+}
+
+.pro {
+    display: inline;
+    margin-left: 3%;
+}
+
+.typ {
+    margin-left: 3%;
+}
+
+.meaning {
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 1.2rem;
+}
+
+@media (max-width:700px) {
+
+    .mainbox1 {
+        width: 85%;
+        margin-top: 1%;
+        margin-left: 11%;
+
+    }
+}
+
+@media (max-width:500px) {
+    .word {
+        display: block;
+
+    }
+}
